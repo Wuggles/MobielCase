@@ -3,6 +3,9 @@ package mobilebeans;
 import java.util.List;
 
 import javax.ejb.Stateless;
+import javax.inject.Inject;
+
+import dao.MobileDao;
 
 import model.Mobile;
 
@@ -12,29 +15,27 @@ import model.Mobile;
 @Stateless
 public class MobileBean implements MobileBeanLocal {
 
-    /**
-     * Default constructor. 
-     */
+    @Inject MobileDao mobileDao;
+	
     public MobileBean() {
         // TODO Auto-generated constructor stub
     }
 
 	@Override
 	public Mobile getMobileByName(String name) {
-		// TODO Auto-generated method stub
-		return null;
+		return mobileDao.getMobileByName(name);
 	}
 
 	@Override
 	public List<Mobile> getMobiles() {
-		// TODO Auto-generated method stub
-		return null;
+		return mobileDao.getAllMobiles();
 	}
 
 	@Override
 	public void addMobile(Mobile mobile) {
-		// TODO Auto-generated method stub
 		
+		System.out.println("Method not implemented!");
+		//mobileDao.addMobile(manufacturer, mobile);
 	}
 
 }

@@ -14,5 +14,6 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/Model"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/MobileJEBClient"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/DAOMobile"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

@@ -3,8 +3,10 @@ package mobilebeans;
 import java.util.List;
 
 import javax.ejb.Stateless;
+import javax.inject.Inject;
 
 import model.Manufacturer;
+import dao.ManufacturerDao;
 
 /**
  * Session Bean implementation class ManufacturerBean
@@ -12,28 +14,25 @@ import model.Manufacturer;
 @Stateless
 public class ManufacturerBean implements ManufacturerBeanLocal {
 
-    /**
-     * Default constructor. 
-     */
+	@Inject ManufacturerDao manufacturerDao;
+	
     public ManufacturerBean() {
         // TODO Auto-generated constructor stub
     }
 
 	@Override
 	public Manufacturer getManufacturerByName(String name) {
-		// TODO Auto-generated method stub
-		return null;
+		return manufacturerDao.getManufacturerByName(name);
 	}
 
 	@Override
 	public List<Manufacturer> getManufacturers() {
-		// TODO Auto-generated method stub
-		return null;
+		return manufacturerDao.getAllManufacturers();
 	}
 
 	@Override
 	public void addManufacturer(Manufacturer manufacturer) {
-		// TODO Auto-generated method stub
+		manufacturerDao.addManufacturer(manufacturer);
 		
 	}
 
