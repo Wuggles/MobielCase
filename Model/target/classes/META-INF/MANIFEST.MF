@@ -1,5 +1,9 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
+Class-Path: 
+=======
 Built-By: LucK
 Build-Jdk: 1.7.0_07
 Created-By: Maven Integration for Eclipse
+>>>>>>> 7825b03a5850013d72d81c8bba80cc28c477b9cb
 

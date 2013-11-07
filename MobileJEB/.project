@@ -3,6 +3,8 @@
 	<name>MobileJEB</name>
 	<comment></comment>
 	<projects>
+		<project>Model</project>
+		<project>DAOMobile</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

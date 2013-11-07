@@ -11,7 +11,7 @@ import dao.ManufacturerDao;
 /**
  * Session Bean implementation class ManufacturerBean
  */
-@Stateless
+@Stateless(mappedName="manufacturerBean")
 public class ManufacturerBean implements ManufacturerBeanLocal {
 
 	@Inject ManufacturerDao manufacturerDao;
@@ -32,6 +32,7 @@ public class ManufacturerBean implements ManufacturerBeanLocal {
 
 	@Override
 	public void addManufacturer(Manufacturer manufacturer) {
+		System.out.println("test");
 		manufacturerDao.addManufacturer(manufacturer);
 		
 	}

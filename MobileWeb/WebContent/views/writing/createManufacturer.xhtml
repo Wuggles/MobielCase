@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<title>Create a new Manufacturer</title>
+</h:head>
+<h:body>
+	<h:form>
+			Manufacturer name:<h:inputText value="#{manufacturer.name}" onmousedown="this.value=''"></h:inputText> <br />
+			Manufacturer location: <h:inputText value="#{manufacturer.location}" onmousedown="this.value=''"></h:inputText> <br />
+			<h:commandButton action="#{manufacturer.save()}" value="Create Manufacturer" />
+	</h:form>	
+</h:body>
+</html>

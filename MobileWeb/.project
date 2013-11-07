@@ -3,6 +3,8 @@
 	<name>MobileWeb</name>
 	<comment></comment>
 	<projects>
+		<project>MobileJEBClient</project>
+		<project>Model</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

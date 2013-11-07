@@ -24,9 +24,9 @@
 
         <properties>
             <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:MinorOracleT"/>
-            <property name="javax.persistence.jdbc.user" value="MIKE"/>
-            <property name="javax.persistence.jdbc.password" value="adminadmin"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:firstDatabas"/>
+            <property name="javax.persistence.jdbc.user" value="C##KOEN"/>
+            <property name="javax.persistence.jdbc.password" value="koenpass"/>
 
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>

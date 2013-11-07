@@ -3,8 +3,14 @@
 	<name>MobileCaseEAR</name>
 	<comment></comment>
 	<projects>
+<<<<<<< HEAD
+		<project>Model</project>
+		<project>MobileJEB</project>
+		<project>MobileJEBClient</project>
+=======
 		<project>DAOMobile</project>
 		<project>Model</project>
+>>>>>>> 7825b03a5850013d72d81c8bba80cc28c477b9cb
 	</projects>
 	<buildSpec>
 		<buildCommand>
