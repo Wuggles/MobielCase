@@ -32,5 +32,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/work/Groep/MobielCase/Model/src/main/resources/ojdbc6.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
