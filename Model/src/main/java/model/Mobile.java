@@ -1,7 +1,12 @@
 package model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Mobile {
 
+	@Id
 	private String name;
 	private double price;
 	private String size;
