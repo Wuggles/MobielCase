@@ -3,6 +3,8 @@
 	<name>MobileCaseEAR</name>
 	<comment></comment>
 	<projects>
+		<project>DAOMobile</project>
+		<project>Model</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
